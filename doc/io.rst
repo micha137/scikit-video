@@ -72,7 +72,7 @@ Sometimes, particular use cases require fine tuning FFmpeg's reading parameters.
 
 For example, FFmpegReader will by default return an RGB representation of a video file, but you may want some other color space that FFmpeg supports, by setting appropriate key/values in outputparameters. Since FFmpeg output is piped into stdin, all FFmpeg commands can be used here.
 
-inputparameters may be useful for raw video which has no header information. Then you should FFmpeg exactly how to interpret your data.
+inputparameters may be useful for raw video which has no header information. Then you should tell FFmpeg exactly how to interpret your data.
 	
 
 Writing
