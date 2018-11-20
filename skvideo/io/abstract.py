@@ -335,7 +335,7 @@ class VideoWriterAbstract(object):
     def __init__(self, filename, inputdict=None, outputdict=None, verbosity=0):
         """Prepares parameters
 
-        Does not instantiate the an FFmpeg subprocess, but simply
+        Does not instantiate an FFmpeg subprocess, but simply
         prepares the required parameters.
 
         Parameters
