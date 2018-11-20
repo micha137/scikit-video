@@ -1,8 +1,5 @@
 import skvideo.measure
 import numpy as np
-import numpy as np
-
-import skvideo.measure
 
 outputfile = "test.mp4"
 outputdata = np.random.random(size=(30, 480, 640, 3)) * 255
