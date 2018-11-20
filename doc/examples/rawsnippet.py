@@ -1,9 +1,6 @@
 import skvideo.io
 import skvideo.utils
 import skvideo.datasets
-
-# since this skvideo does not support images yet
-import skimage.io
 import numpy as np
 
 filename = skvideo.datasets.bigbuckbunny()
